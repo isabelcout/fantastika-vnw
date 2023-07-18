@@ -2,4 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 15vh;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15vw;
+}
+
+header h2{
+    color: white;
+}
+
+header section img{
+    height: 10vh;
+}
+
+header nav{
+    display: flex;
+    width: 15vw;
+}
+
+header a{
+    display: flex;
+    justify-content: center;
+    width: 5vw;
+}
+
+.fundo{
+    background-image: url('..//images/primeirocao.png');
+    background-size: cover;
+    width: 50vw;
+    height: 85vh;
 }
