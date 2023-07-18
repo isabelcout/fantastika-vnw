@@ -50,24 +50,141 @@ header a img{
     width: 100%;
     height: 150vh;
     display: flex;
+    justify-content: center;
+    
+}
+
+.primeiraSection div{
+    height: 60vh;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    top: 180px; left: 30px;
 }
 
 .primeiraSection img{
     height: 18vh;
-    width: 12vw;
-    position: relative;
-    top: 270px; left: 25px;
+    width: 12vw;  
 }
 
 .primeiraSection h1{
     font-size: 56px;
     color: white;
     width: 30vw;
-    text-align: center;
+}
+
+.segundaSection{
+    background-image: url('..//images/segundocao.png');
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.segundaSection div{
+    width: 35vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     position: relative;
-    top: 210px; left: 20px;
+    left: 80px;
+}
+
+.segundaSection h2{
+    font-size:60px;
+}
+
+.segundaSection p{
+    font-size: 42px;
+}
+
+.segundaSection button{
+    width: 25vw;
+    height: 15vh;
+    border-radius: 44px;
+    background-color: #3A342F;
+    color: white;
+    font-size: 35px;
+}
+
+.terceiraSection{
+    background-image: url('..//images/terceirocao.png');
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.terceiraSection div{
+    width: 32vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    right: 80px;
+    color: white;
+}
+
+.terceiraSection h2{
+    font-size:60px;
+}
+
+.terceiraSection p{
+    font-size: 42px;
+}
+
+.terceiraSection button{
+    width: 25vw;
+    height: 15vh;
+    border-radius: 44px;
+    border: none;
+    background-color: white;
+    color: #3A342F;
+    font-size: 35px;
+}
+
+.apoio{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FD6A9A;
+    height: 20vh;
+}
+
+.apoio img{
+    width: 12vw;
+    height: 5vh;
+}
+
+footer{
+    background-color:#FD6A9A;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer section{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border: solid red;
+}
+
+footer ul{
+    list-style: none;
 }
 
