@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    font-family: 'Roboto Serif';
 }
 
 header{
@@ -44,6 +44,10 @@ header a img{
     height: 5vh;
 }
 
+img:hover{
+    transform: scale(115%);
+}
+
 .primeiraSection{
     background-image: url('..//images/primeirocao.png');
     background-size: cover;
@@ -72,8 +76,9 @@ header a img{
 
 .primeiraSection h1{
     font-size: 56px;
+    font-weight: 900;
     color: white;
-    width: 30vw;
+    width: 35vw;
 }
 
 .segundaSection{
@@ -88,7 +93,7 @@ header a img{
 
 .segundaSection div{
     width: 35vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -98,6 +103,7 @@ header a img{
 
 .segundaSection h2{
     font-size:60px;
+
 }
 
 .segundaSection p{
@@ -113,6 +119,10 @@ header a img{
     font-size: 35px;
 }
 
+button:hover{
+    transform: scale(115%);
+}
+
 .terceiraSection{
     background-image: url('..//images/terceirocao.png');
     background-size: cover;
@@ -125,7 +135,7 @@ header a img{
 
 .terceiraSection div{
     width: 32vw;
-    height: 90vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -150,6 +160,7 @@ header a img{
     background-color: white;
     color: #3A342F;
     font-size: 35px;
+    font-weight: 900;
 }
 
 .apoio{
@@ -161,6 +172,12 @@ header a img{
     height: 20vh;
 }
 
+.apoio h2{
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+}
+
 .apoio img{
     width: 12vw;
     height: 5vh;
@@ -168,23 +185,27 @@ header a img{
 
 footer{
     background-color:#FD6A9A;
+    color: white;
     height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-footer section{
-    width: 50vw;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    color: white;
-    border: solid red;
 }
 
 footer ul{
     list-style: none;
 }
 
+footer section{
+    height: 40vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 80px;
+}
+
+footer li{
+    height: 4vh;
+}
