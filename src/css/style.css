@@ -10,7 +10,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    height: 15vh;
+    height: 13vh;
     width: 100%;
 }
 
@@ -26,7 +26,7 @@ header h2{
 }
 
 header section img{
-    height: 10vh;
+    height: 8vh;
 }
 
 header nav{
@@ -41,7 +41,7 @@ header a{
 }
 
 header a img{
-    height: 5vh;
+    height: 3vh;
 }
 
 img:hover{
