@@ -1,4 +1,54 @@
-@media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 480px) {
+    .sociais{
+        display: none;
+    }
 
+    .whatsapp{
+        height: 4vh;
+    }
+
+    header section{
+        width: 45vw;
+    }
+
+    .primeiraSection{
+        border: solid red;
+        height: 50vh;
+        align-items: center;
+    }
+
+    .primeiraSection div{
+        border: solid blue;
+        height: 25vh;
+        justify-content: center;
+    }
+
+    .primeiraSection h1{
+        font-size: 25px;
+    }
+
+    .segundaSection{
+        height: 50vh;
+    }
+
+    .terceiraSection{
+        height: 50vh;
+    }
+
+    .apoio{
+        height: 15vh;
+    }
+
+    .apoio h2{
+        font-size: 20px;
+    }
+
+    .apoio img{
+        width: 18vw;
+        height: 5vh;
+    }
+
+    footer{
+        height: 50vh;
+    }
 }
