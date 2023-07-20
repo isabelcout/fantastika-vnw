@@ -12,23 +12,31 @@
     }
 
     .primeiraSection{
-        border: solid red;
         height: 50vh;
-        align-items: center;
     }
 
     .primeiraSection div{
         border: solid blue;
-        height: 25vh;
-        justify-content: center;
+
+        
+        
+        
     }
 
     .primeiraSection h1{
         font-size: 25px;
+        border: solid purple;
+    }
+
+    .primeiraSection img{
+        border: solid green;
     }
 
     .segundaSection{
         height: 50vh;
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     }
 
     .terceiraSection{
