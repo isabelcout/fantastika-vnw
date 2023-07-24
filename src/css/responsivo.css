@@ -16,21 +16,47 @@
     }
 
     .primeiraSection div{
-        border: solid blue;
-        
+        width: 35vh;
+        height: 25vh;
+        position: absolute;
+        bottom: 60%;
+        left: 16%;      
     }
 
     .primeiraSection h1{
         font-size: 25px;
-        border: solid purple;
-    }
-
-    .primeiraSection img{
-        border: solid green;
     }
 
     .segundaSection{
-        height: 50vh;
+        border: solid blue;
+        height: 80vh;
+        background-color: #F4F2F3;
+        background-position: left bottom;
+        background-size: 70%  50%;
+        background-repeat: no-repeat;
+        
+    }
+
+    .segundaSection div{
+        border: solid red;
+        width: 80vw;
+        height: 40vh;
+        
+        
+    }
+
+    .segundaSection h2{
+        font-size: 25px;
+    }
+
+    .segundaSection p{
+        font-size: 20px;
+    }
+
+    .segundaSection button{
+        width: 35vw;
+        height: 10vh;
+        font-size: 15px;
     }
 
     .terceiraSection{
