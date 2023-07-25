@@ -50,7 +50,7 @@ img:hover{
 }
 
 .primeiraSection{
-    background-image: url('..//images/primeirocao.png');
+    background-image: url('../images/primeirocao.png');
     background-size: cover;
     height: 150vh;
     display: flex;
@@ -83,7 +83,7 @@ img:hover{
 }
 
 .segundaSection{
-    background-image: url('..//images/segundocao.png');
+    background-image: url('../images/segundocao.png');
     background-size: cover;
     width: 100%;
     height: 150vh;
@@ -125,7 +125,7 @@ button:hover{
 }
 
 .terceiraSection{
-    background-image: url('..//images/terceirocao.png');
+    background-image: url('../images/terceirocao.png');
     background-size: cover;
     width: 100%;
     height: 150vh;
@@ -209,6 +209,10 @@ footer .logo{
 }
 
 footer .sociais{
+    display: none;
+}
+
+footer .whatsapp{
     display: none;
 }
 
