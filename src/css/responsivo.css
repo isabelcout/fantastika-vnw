@@ -1,31 +1,35 @@
 @media screen and (max-width: 480px) {
+
+
     header .sociais{
         display: none;
     }
 
     header .whatsapp{
         height: 4vh;
+        position: absolute;
+        top: 5%;
+        right: 10%;
     }
 
     header section{
-        width: 45vw;
+        width: 55vw;
     }
 
     .primeiraSection{
-        height: 120vh;
-        background-image: url('../images/primeirocaomedia.png');
+        height: 80vh;
+        background-image: url('..//images/primeirocaomedia.png');
         display: flex;
         justify-content: flex-start;
     }
 
     .primeiraSection div{
-        width: 55vh;
+        width: 35vh;
         height: 45vh;
         display: flex;
         align-items: center;
         position: absolute;
-        bottom: 25%; left: 15%;  
-            
+        bottom: 40%; left: 17%;
     }
 
     .primeiraSection h1{
@@ -34,7 +38,8 @@
     }
 
     .primeiraSection img{
-        width: 25vw;
+        width: 20vw;
+        height: 15vh;
     }
 
     .segundaSection{
