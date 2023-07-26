@@ -151,7 +151,7 @@
     }
 
     footer .logo figure{
-        width: 45vw;
+        width: 55vw;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -160,13 +160,14 @@
 
     footer .logo img{
         width: 12vw;
-        height: 10vh;
+        height: 8vh;
     }
 
     footer .contato{
         width: 45vw;
         display: flex;
         justify-content: space-evenly;
+        margin-left: 10%;
     }
 
     footer .sociais{
