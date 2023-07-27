@@ -15,14 +15,14 @@
         width: 55vw;
     }
 
-    .primeiraSection{
+    .boasvindas{
         height: 80vh;
         background-image: url('../images/primeirocaomedia.png');
         display: flex;
         justify-content: flex-start;
     }
 
-    .primeiraSection div{
+    .boasvindas div{
         width: 35vh;
         height: 45vh;
         display: flex;
@@ -31,17 +31,17 @@
         bottom: 40%; left: 17%;
     }
 
-    .primeiraSection h1{
+    .boasvindas h1{
         font-size: 35px;
         width: 73vw;
     }
 
-    .primeiraSection img{
+    .boasvindas img{
         width: 20vw;
         height: 15vh;
     }
 
-    .segundaSection{
+    .banhotosa{
         height: 150vh;
         background-image: url('../images/segundocaomedia.png');
         background-size: 100% 100%;
@@ -50,7 +50,7 @@
         justify-content: flex-start;
     }
 
-    .segundaSection div{
+    .banhotosa div{
         width: 80vw;
         height: 50vh;
         position: relative;
@@ -58,21 +58,21 @@
         text-align: justify;
     }
 
-    .segundaSection h2{
+    .banhotosa h2{
         font-size: 35px;
     }
 
-    .segundaSection p{
+    .banhotosa p{
         font-size: 20px;
     }
 
-    .segundaSection button{
+    .banhotosa button{
         width: 35vw;
         height: 10vh;
         font-size: 16px;
     }
 
-    .terceiraSection{
+    .mordomia{
         height: 150vh;
         background-image: url('../images/terceirocaomedia.png');
         display: flex;
@@ -80,7 +80,7 @@
         justify-content: flex-start;
     }
 
-    .terceiraSection div{
+    .mordomia div{
         width: 77vw;
         height: 50vh;
         position: relative;
@@ -89,15 +89,15 @@
     }
 
 
-    .terceiraSection h2{
+    .mordomia h2{
         font-size: 35px;
     }
 
-    .terceiraSection p{
+    .mordomia p{
         font-size: 20px;
     }
 
-    .terceiraSection button{
+    .mordomia button{
         width: 35vw;
         height: 10vh;
         font-size: 16px;
