@@ -53,7 +53,7 @@ img:hover{
     transform: scale(115%);
 }
 
-.primeiraSection{
+.boasvindas{
     background-image: url('../images/primeirocao.png');
     background-size: cover;
     height: 150vh;
@@ -62,7 +62,7 @@ img:hover{
     
 }
 
-.primeiraSection div{
+.boasvindas div{
     height: 60vh;
     display: flex;
     flex-direction: column;
@@ -74,19 +74,19 @@ img:hover{
     margin-top: 155px;
 }
 
-.primeiraSection img{
+.boasvindas img{
     height: 18vh;
     width: 12vw;  
 }
 
-.primeiraSection h1{
+.boasvindas h1{
     font-size: 56px;
     font-weight: 900;
     color: #ffffff;
     width: 35vw;
 }
 
-.segundaSection{
+.banhotosa{
     background-image: url('../images/segundocao.png');
     background-size: cover;
     width: 100%;
@@ -96,7 +96,7 @@ img:hover{
     
 }
 
-.segundaSection div{
+.banhotosa div{
     width: 35vw;
     height: 100vh;
     display: flex;
@@ -106,16 +106,16 @@ img:hover{
     left: 80px;
 }
 
-.segundaSection h2{
+.banhotosa h2{
     font-size:60px;
 
 }
 
-.segundaSection p{
+.banhotosa p{
     font-size: 42px;
 }
 
-.segundaSection button{
+.banhotosa button{
     width: 25vw;
     height: 15vh;
     border-radius: 44px;
@@ -128,7 +128,7 @@ button:hover{
     transform: scale(115%);
 }
 
-.terceiraSection{
+.mordomia{
     background-image: url('../images/terceirocao.png');
     background-size: cover;
     width: 100%;
@@ -138,7 +138,7 @@ button:hover{
     justify-content: end;
 }
 
-.terceiraSection div{
+.mordomia div{
     width: 32vw;
     height: 120vh;
     display: flex;
@@ -149,15 +149,15 @@ button:hover{
     color: #ffffff;
 }
 
-.terceiraSection h2{
+.mordomia h2{
     font-size:60px;
 }
 
-.terceiraSection p{
+.mordomia p{
     font-size: 42px;
 }
 
-.terceiraSection button{
+.mordomia button{
     width: 25vw;
     height: 15vh;
     border-radius: 44px;
